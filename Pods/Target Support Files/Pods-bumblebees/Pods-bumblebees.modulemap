@@ -1,0 +1,6 @@
+framework module Pods_bumblebees {
+  umbrella header "Pods-bumblebees-umbrella.h"
+
+  export *
+  module * { export * }
+}

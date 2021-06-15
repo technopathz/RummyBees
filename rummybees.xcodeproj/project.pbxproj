@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62080F72F2212A69ECAA6B92 /* Pods_bumblebees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DCFDA4E623CEDA7D12A2E9 /* Pods_bumblebees.framework */; };
+		DA3291BD26629DBC003233CC /* bumblebeesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291BC26629DBC003233CC /* bumblebeesApp.swift */; };
+		DA3291BF26629DBC003233CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291BE26629DBC003233CC /* ContentView.swift */; };
+		DA3291C126629DC8003233CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3291C026629DC8003233CC /* Assets.xcassets */; };
+		DA3291C426629DC8003233CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3291C326629DC8003233CC /* Preview Assets.xcassets */; };
+		DA3291CF26629DC9003233CC /* bumblebeesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291CE26629DC9003233CC /* bumblebeesTests.swift */; };
+		DA3291DA26629DC9003233CC /* bumblebeesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291D926629DC9003233CC /* bumblebeesUITests.swift */; };
+		DA3291EC266689F2003233CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291EB266689F1003233CC /* LoginView.swift */; };
+		DA3291F426669406003233CC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291F326669406003233CC /* SignUpView.swift */; };
+		DA3291F926669606003233CC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3291F826669606003233CC /* UserViewModel.swift */; };
+		DA32924426699B1E003233CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32924326699B1E003233CC /* HomeView.swift */; };
+		DA32924D26699B3B003233CC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32924C26699B3B003233CC /* ProfileView.swift */; };
+		DA329277266A65C0003233CC /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA329276266A65C0003233CC /* Users.swift */; };
+		DA32927F266A67FE003233CC /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32927E266A67FE003233CC /* AppData.swift */; };
+		DA329289266E5987003233CC /* FullScreenModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA329288266E5986003233CC /* FullScreenModalView.swift */; };
+		DA32928F266E6655003233CC /* NavigationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32928E266E6655003233CC /* NavigationModifier.swift */; };
+		DA329298266E66E9003233CC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA329297266E66E9003233CC /* View+Extensions.swift */; };
+		DA32929E266E687F003233CC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32929D266E687F003233CC /* Games.swift */; };
+		DA3292A6266E6A71003233CC /* PresentationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3292A5266E6A71003233CC /* PresentationButton.swift */; };
+		DA3292B5266E771E003233CC /* WorkingInProgess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3292B4266E771E003233CC /* WorkingInProgess.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3291CB26629DC9003233CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3291B126629DBC003233CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3291B826629DBC003233CC;
+			remoteInfo = bumblebees;
+		};
+		DA3291D626629DC9003233CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3291B126629DBC003233CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3291B826629DBC003233CC;
+			remoteInfo = bumblebees;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		479EAA6822600C00DF505171 /* Pods-bumblebees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bumblebees.release.xcconfig"; path = "Target Support Files/Pods-bumblebees/Pods-bumblebees.release.xcconfig"; sourceTree = "<group>"; };
+		5B1EC557F745962F3A10AD80 /* Pods-bumblebees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bumblebees.debug.xcconfig"; path = "Target Support Files/Pods-bumblebees/Pods-bumblebees.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DCFDA4E623CEDA7D12A2E9 /* Pods_bumblebees.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bumblebees.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3291B926629DBC003233CC /* bumblebees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bumblebees.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3291BC26629DBC003233CC /* bumblebeesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bumblebeesApp.swift; sourceTree = "<group>"; };
+		DA3291BE26629DBC003233CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA3291C026629DC8003233CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3291C326629DC8003233CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA3291C526629DC8003233CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3291CA26629DC9003233CC /* bumblebeesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bumblebeesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3291CE26629DC9003233CC /* bumblebeesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bumblebeesTests.swift; sourceTree = "<group>"; };
+		DA3291D026629DC9003233CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3291D526629DC9003233CC /* bumblebeesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bumblebeesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3291D926629DC9003233CC /* bumblebeesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bumblebeesUITests.swift; sourceTree = "<group>"; };
+		DA3291DB26629DC9003233CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3291EB266689F1003233CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DA3291F326669406003233CC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		DA3291F826669606003233CC /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		DA32924326699B1E003233CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DA32924C26699B3B003233CC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DA329276266A65C0003233CC /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		DA32927E266A67FE003233CC /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		DA329288266E5986003233CC /* FullScreenModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModalView.swift; sourceTree = "<group>"; };
+		DA32928E266E6655003233CC /* NavigationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModifier.swift; sourceTree = "<group>"; };
+		DA329297266E66E9003233CC /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DA32929D266E687F003233CC /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		DA3292A5266E6A71003233CC /* PresentationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationButton.swift; sourceTree = "<group>"; };
+		DA3292B4266E771E003233CC /* WorkingInProgess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingInProgess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3291B626629DBC003233CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62080F72F2212A69ECAA6B92 /* Pods_bumblebees.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3291C726629DC9003233CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3291D226629DC9003233CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808C5C2CB7D4261BAE12C289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DCFDA4E623CEDA7D12A2E9 /* Pods_bumblebees.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FF06150DA2E16068C27606D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B1EC557F745962F3A10AD80 /* Pods-bumblebees.debug.xcconfig */,
+				479EAA6822600C00DF505171 /* Pods-bumblebees.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA3291B026629DBC003233CC = {
+			isa = PBXGroup;
+			children = (
+				DA3291BB26629DBC003233CC /* bumblebees */,
+				DA3291CD26629DC9003233CC /* bumblebeesTests */,
+				DA3291D826629DC9003233CC /* bumblebeesUITests */,
+				DA3291BA26629DBC003233CC /* Products */,
+				9FF06150DA2E16068C27606D /* Pods */,
+				808C5C2CB7D4261BAE12C289 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3291BA26629DBC003233CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3291B926629DBC003233CC /* bumblebees.app */,
+				DA3291CA26629DC9003233CC /* bumblebeesTests.xctest */,
+				DA3291D526629DC9003233CC /* bumblebeesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3291BB26629DBC003233CC /* bumblebees */ = {
+			isa = PBXGroup;
+			children = (
+				DA32929C266E686E003233CC /* Games */,
+				DA329296266E66D1003233CC /* extensions */,
+				DA32928D266E663C003233CC /* Modifiers */,
+				DA32924B26699B2C003233CC /* Profile */,
+				DA32924226699B04003233CC /* Home */,
+				DA3291EA266689D1003233CC /* Login */,
+				DA3291BC26629DBC003233CC /* bumblebeesApp.swift */,
+				DA3291BE26629DBC003233CC /* ContentView.swift */,
+				DA3291C026629DC8003233CC /* Assets.xcassets */,
+				DA3291C526629DC8003233CC /* Info.plist */,
+				DA3291C226629DC8003233CC /* Preview Content */,
+				DA32927E266A67FE003233CC /* AppData.swift */,
+				DA329288266E5986003233CC /* FullScreenModalView.swift */,
+				DA3292A5266E6A71003233CC /* PresentationButton.swift */,
+				DA3292B4266E771E003233CC /* WorkingInProgess.swift */,
+			);
+			path = bumblebees;
+			sourceTree = "<group>";
+		};
+		DA3291C226629DC8003233CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA3291C326629DC8003233CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA3291CD26629DC9003233CC /* bumblebeesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3291CE26629DC9003233CC /* bumblebeesTests.swift */,
+				DA3291D026629DC9003233CC /* Info.plist */,
+			);
+			path = bumblebeesTests;
+			sourceTree = "<group>";
+		};
+		DA3291D826629DC9003233CC /* bumblebeesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3291D926629DC9003233CC /* bumblebeesUITests.swift */,
+				DA3291DB26629DC9003233CC /* Info.plist */,
+			);
+			path = bumblebeesUITests;
+			sourceTree = "<group>";
+		};
+		DA3291EA266689D1003233CC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DA3291EB266689F1003233CC /* LoginView.swift */,
+				DA3291F326669406003233CC /* SignUpView.swift */,
+				DA3291F826669606003233CC /* UserViewModel.swift */,
+				DA329276266A65C0003233CC /* Users.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DA32924226699B04003233CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA32924326699B1E003233CC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA32924B26699B2C003233CC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DA32924C26699B3B003233CC /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DA32928D266E663C003233CC /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				DA32928E266E6655003233CC /* NavigationModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		DA329296266E66D1003233CC /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA329297266E66E9003233CC /* View+Extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		DA32929C266E686E003233CC /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				DA32929D266E687F003233CC /* Games.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3291B826629DBC003233CC /* bumblebees */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3291DE26629DC9003233CC /* Build configuration list for PBXNativeTarget "bumblebees" */;
+			buildPhases = (
+				0E3A322AA17238F7D501F482 /* [CP] Check Pods Manifest.lock */,
+				DA3291B526629DBC003233CC /* Sources */,
+				DA3291B626629DBC003233CC /* Frameworks */,
+				DA3291B726629DBC003233CC /* Resources */,
+				731D2190D12FBD28044F1BED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bumblebees;
+			productName = bumblebees;
+			productReference = DA3291B926629DBC003233CC /* bumblebees.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3291C926629DC9003233CC /* bumblebeesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3291E126629DC9003233CC /* Build configuration list for PBXNativeTarget "bumblebeesTests" */;
+			buildPhases = (
+				DA3291C626629DC9003233CC /* Sources */,
+				DA3291C726629DC9003233CC /* Frameworks */,
+				DA3291C826629DC9003233CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3291CC26629DC9003233CC /* PBXTargetDependency */,
+			);
+			name = bumblebeesTests;
+			productName = bumblebeesTests;
+			productReference = DA3291CA26629DC9003233CC /* bumblebeesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA3291D426629DC9003233CC /* bumblebeesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3291E426629DC9003233CC /* Build configuration list for PBXNativeTarget "bumblebeesUITests" */;
+			buildPhases = (
+				DA3291D126629DC9003233CC /* Sources */,
+				DA3291D226629DC9003233CC /* Frameworks */,
+				DA3291D326629DC9003233CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3291D726629DC9003233CC /* PBXTargetDependency */,
+			);
+			name = bumblebeesUITests;
+			productName = bumblebeesUITests;
+			productReference = DA3291D526629DC9003233CC /* bumblebeesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3291B126629DBC003233CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DA3291B826629DBC003233CC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DA3291C926629DC9003233CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DA3291B826629DBC003233CC;
+					};
+					DA3291D426629DC9003233CC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DA3291B826629DBC003233CC;
+					};
+				};
+			};
+			buildConfigurationList = DA3291B426629DBC003233CC /* Build configuration list for PBXProject "bumblebees" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3291B026629DBC003233CC;
+			productRefGroup = DA3291BA26629DBC003233CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3291B826629DBC003233CC /* bumblebees */,
+				DA3291C926629DC9003233CC /* bumblebeesTests */,
+				DA3291D426629DC9003233CC /* bumblebeesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3291B726629DBC003233CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3291C426629DC8003233CC /* Preview Assets.xcassets in Resources */,
+				DA3291C126629DC8003233CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3291C826629DC9003233CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3291D326629DC9003233CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3A322AA17238F7D501F482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bumblebees-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731D2190D12FBD28044F1BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bumblebees/Pods-bumblebees-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bumblebees/Pods-bumblebees-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bumblebees/Pods-bumblebees-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3291B526629DBC003233CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3291F426669406003233CC /* SignUpView.swift in Sources */,
+				DA3291EC266689F2003233CC /* LoginView.swift in Sources */,
+				DA32929E266E687F003233CC /* Games.swift in Sources */,
+				DA3292A6266E6A71003233CC /* PresentationButton.swift in Sources */,
+				DA3292B5266E771E003233CC /* WorkingInProgess.swift in Sources */,
+				DA3291BF26629DBC003233CC /* ContentView.swift in Sources */,
+				DA329289266E5987003233CC /* FullScreenModalView.swift in Sources */,
+				DA32924426699B1E003233CC /* HomeView.swift in Sources */,
+				DA329277266A65C0003233CC /* Users.swift in Sources */,
+				DA3291F926669606003233CC /* UserViewModel.swift in Sources */,
+				DA32924D26699B3B003233CC /* ProfileView.swift in Sources */,
+				DA32928F266E6655003233CC /* NavigationModifier.swift in Sources */,
+				DA3291BD26629DBC003233CC /* bumblebeesApp.swift in Sources */,
+				DA329298266E66E9003233CC /* View+Extensions.swift in Sources */,
+				DA32927F266A67FE003233CC /* AppData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3291C626629DC9003233CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3291CF26629DC9003233CC /* bumblebeesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3291D126629DC9003233CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3291DA26629DC9003233CC /* bumblebeesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3291CC26629DC9003233CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3291B826629DBC003233CC /* bumblebees */;
+			targetProxy = DA3291CB26629DC9003233CC /* PBXContainerItemProxy */;
+		};
+		DA3291D726629DC9003233CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3291B826629DBC003233CC /* bumblebees */;
+			targetProxy = DA3291D626629DC9003233CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA3291DC26629DC9003233CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3291DD26629DC9003233CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3291DF26629DC9003233CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1EC557F745962F3A10AD80 /* Pods-bumblebees.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"bumblebees/Preview Content\"";
+				DEVELOPMENT_TEAM = DH7GR4TZMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = bumblebees/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopathz.rummybees;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Rummy Bees Development Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DA3291E026629DC9003233CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479EAA6822600C00DF505171 /* Pods-bumblebees.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"bumblebees/Preview Content\"";
+				DEVELOPMENT_TEAM = DH7GR4TZMX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = bumblebees/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopathz.rummybees;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Rummy Bees Distribution Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DA3291E226629DC9003233CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G54ZZQ9828;
+				INFOPLIST_FILE = bumblebeesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopathz.bumblebeesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bumblebees.app/bumblebees";
+			};
+			name = Debug;
+		};
+		DA3291E326629DC9003233CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G54ZZQ9828;
+				INFOPLIST_FILE = bumblebeesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopathz.bumblebeesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bumblebees.app/bumblebees";
+			};
+			name = Release;
+		};
+		DA3291E526629DC9003233CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G54ZZQ9828;
+				INFOPLIST_FILE = bumblebeesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopathz.bumblebeesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bumblebees;
+			};
+			name = Debug;
+		};
+		DA3291E626629DC9003233CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G54ZZQ9828;
+				INFOPLIST_FILE = bumblebeesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.technopathz.bumblebeesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bumblebees;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3291B426629DBC003233CC /* Build configuration list for PBXProject "bumblebees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3291DC26629DC9003233CC /* Debug */,
+				DA3291DD26629DC9003233CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3291DE26629DC9003233CC /* Build configuration list for PBXNativeTarget "bumblebees" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3291DF26629DC9003233CC /* Debug */,
+				DA3291E026629DC9003233CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3291E126629DC9003233CC /* Build configuration list for PBXNativeTarget "bumblebeesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3291E226629DC9003233CC /* Debug */,
+				DA3291E326629DC9003233CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3291E426629DC9003233CC /* Build configuration list for PBXNativeTarget "bumblebeesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3291E526629DC9003233CC /* Debug */,
+				DA3291E626629DC9003233CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3291B126629DBC003233CC /* Project object */;
+}
